@@ -3,9 +3,20 @@ RSACore For Python
 
 A simple RSA library for python with built-in AES, which allows you to exchange encrypted data with an unlimited size.
 
+Installation:
+
+For Windows:
+```bash
+pip install rsacore
+```
+For Linux or MacOS:
+```bash
+pip3 install rsacore
+```
+
 Example:
 ```python
-from RSACore.RSACore import Core
+from rsacore import Core
 
 RSA = Core()
 RSA2 = Core()
